@@ -12,10 +12,10 @@ import webbrowser
 st.set_page_config(layout="wide")
 
 # Configura tus credenciales y región aquí
-aws_access_key_id = 'ASIA5PPM6RLRMEXGJPH4'
-aws_secret_access_key = '39AP/PBNkLy/lq/JhwQ+/72bXeTdSPacolitaMoD'
-aws_session_token="FwoGZXIvYXdzEBsaDESIDi3u4acrp/DKByK2AfCDwSjXFjO1PvRWTN6CHGLAPfsaB4HFjJ89aWI/GYowngW7NFyoiq3HfFcnj66CHWy2BlAzTEmRsIIclUe+nB9KbqMvCox/5zPqS0jrIJp10Psi3xLn5uyNp+wWJoUU99nzLDh7CjjPqMVHQNoFbxCQcIaWfoUKvkZH2Spgp06VG6uU8qOybUTFoJ2fqXemuwKiRTMlKpu85yyUN8fbXse20TCCgPOzbIhiNmUmVa2rRSz9hb2aKNLAprAGMi1QeH8lorwMHuAL2815FMjQVs8ahK+MLu56IGJo33FX/qeAV4JtSN/nXEv2upU="
-region_name = 'us-east-1'
+aws_access_key_id = 'XXXXXXXXXXX'
+aws_secret_access_key = 'XXXXXXXXXXX'
+aws_session_token="XXXXXXXXXXX"
+region_name = 'XXXXXXXXX'
 
 # Crea una sesión de boto3 con tus credenciales
 session = boto3.Session(
