@@ -7,10 +7,8 @@ from awsglue.utils import getResolvedOptions
 import sys
 
 args = getResolvedOptions(sys.argv, [
-    "season", 
-
+    "season"
 ])
-
 
 season = int(args['season'])
 
