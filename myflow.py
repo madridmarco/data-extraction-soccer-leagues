@@ -10,6 +10,7 @@ from prefect_aws import AwsCredentials
 
 s3_bucket_block =  S3Bucket.load("aws-prefect-football-data-space-results")
 
+
 aws_credentials_block =  AwsCredentials.load("s3-credentials")
 
 client_glue = aws_credentials_block.get_boto3_session().client("glue")
